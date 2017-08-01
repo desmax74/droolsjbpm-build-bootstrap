@@ -320,7 +320,7 @@ Installing Maven
 
             ```shell
             $ cd ~/opt/build/
-            $ ln -s apache-maven-3.2.5 apache-maven
+            $ ln -s apache-maven-3.3.9 apache-maven
             ```
 
             Next time you only have to remove the link and recreate the link to the new version.
@@ -354,7 +354,7 @@ Installing Maven
 
     ```shell
     $ mvn --version
-    Apache Maven 3.2.5 (...)
+    Apache Maven 3.3.9 (...)
     Java version: 1.8.0_112
     ```
 
@@ -829,7 +829,7 @@ Configuring Eclipse
          * you may not use this file except in compliance with the License.
          * You may obtain a copy of the License at
          *
-         *       http://www.apache.org/licenses/LICENSE-2.0
+         *     http://www.apache.org/licenses/LICENSE-2.0
          *
          * Unless required by applicable law or agreed to in writing, software
          * distributed under the License is distributed on an "AS IS" BASIS,
@@ -1060,7 +1060,7 @@ Configuring IntelliJ
 
     * Click tree item *Code Style* and select it.
 
-        * Note: IntelliJ IDEA doesn't format your code automatically. You have to press Ctrl+Alt+L keyboard combination to trigger auto formatting when coding is done.
+        * Note: IntelliJ IDEA doesn't format your code automatically. You have to press Ctrl+Alt+L keyboard combination to trigger auto formatting when coding is done. Another option is to commit your code directly from IntelliJ IDEA (open menu *VCS*, menu item *Commit Changes...*), and select the option *Reformat Code*, which will reformat all files changed in the commit.
 
 * Set the correct file encoding (UTF-8 except for properties files) and end-of-line characters (unix):
 
@@ -1137,7 +1137,7 @@ Configuring IntelliJ
             you may not use this file except in compliance with the License.
             You may obtain a copy of the License at
 
-                  http://www.apache.org/licenses/LICENSE-2.0
+                http://www.apache.org/licenses/LICENSE-2.0
 
             Unless required by applicable law or agreed to in writing, software
             distributed under the License is distributed on an "AS IS" BASIS,
